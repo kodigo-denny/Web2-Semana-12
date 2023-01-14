@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="Empleado.js"></script>
+    <script src="TimeSheetReport.js"></script>
+    <script src="CalculoSalario.js"></script>
+    <script src="CalculoSalarioExtra.js"></script>
+    <script src="CalculoSalarioExtraRenta.js"></script>
     <script>
         let empleado = new Empleado("Denny", "Herrera", 32)
         
         console.log(empleado.getName())
-        empleado.printTimeSheetReport()
+        TimeSheetReport.print(empleado, 45, 20)
     </script>
 </head>
 <body>

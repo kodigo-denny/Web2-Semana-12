@@ -11,8 +11,4 @@ class Empleado{
     getName(){
         return this.nombre + " " + this.apellido
     }
-
-    printTimeSheetReport(){
-        console.log("A trabajado 20 horas")
-    }
 }
